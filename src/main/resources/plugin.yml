@@ -1,0 +1,31 @@
+name: Caesar
+version: '2.0'
+main: top.fraa2a.caesar.Caesar
+api-version: '1.21'
+
+commands:
+  alts:
+    description: Mostra possibili alt account tramite IP
+    usage: /alts <player>
+    permission: caesar.alts
+
+  check:
+    description: Mostra informazioni complete di un player
+    usage: /check <player>
+    permission: caesar.check
+
+  staffmode:
+    description: Ti mette in staff mode
+    usage: /staffmode
+    aliases: /sm
+    permission: caesar.staff
+
+permissions:
+  caesar.alts:
+    default: op
+
+  caesar.check:
+    default: op
+
+  caesar.staff:
+    default: op
