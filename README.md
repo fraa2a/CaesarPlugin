@@ -1,27 +1,27 @@
 # Caesar
 
-Caesar e' un semplice plugin Spigot/Paper per staff server Minecraft.
+Caesar is a simple Spigot/Paper plugin for Minecraft server staff.
 
-Il plugin salva alcune informazioni sui player quando entrano nel server, come IP e client usato, e permette allo staff di controllare possibili account alternativi.
+The plugin saves some information about players when they join the server, such as their IP address and client brand, and allows staff members to check for possible alternative accounts.
 
-## Comandi
+## Commands
 
-- `/alts <player>` - mostra possibili alt account tramite IP
-- `/check <player>` - mostra informazioni salvate su un player
-- `/staffmode` o `/sm` - attiva o disattiva la staff mode
+* `/alts <player>` - shows possible alt accounts based on IP address
+* `/check <player>` - shows saved information about a player
+* `/staffmode` - enables or disables staff mode
 
-## Permessi
+## Permissions
 
-- `caesar.alts`
-- `caesar.check`
-- `caesar.staff`
+* `caesar.alts`
+* `caesar.check`
+* `caesar.staff`
 
-## Installazione
+## Installation
 
-Compila il plugin con Maven:
+Build the plugin with Maven:
 
 ```bash
 mvn clean package
 ```
 
-Poi metti il file `.jar` generato nella cartella `plugins` del server e riavvia.
+Then place the generated `.jar` file inside the server's `plugins` folder and restart the server.
